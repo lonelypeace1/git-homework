@@ -2,8 +2,8 @@ package repeater
 
 import "fmt"
 
-func PrintFiveTimes(text string) {
-	for i := 0; i < 5; i++ {
+func PrintTimes(text string, times int) {
+	for i := 0; i < times; i++ {
 		fmt.Println(text)
 	}
 }

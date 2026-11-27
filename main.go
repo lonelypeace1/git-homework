@@ -7,5 +7,5 @@ import (
 
 func main() {
 	fmt.Println("Hello, GIT!")
-	repeater.PrintFiveTimes("Я учу гит!")
+	repeater.PrintTimes("Я учу гит!", 5)
 }
